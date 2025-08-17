@@ -7,6 +7,7 @@ namespace SchoolSystem
         static T GetEnumChoice<T>() where T : struct, Enum
         {
             T result;
+            T result1;
             bool validChoice = false;
 
             do
